@@ -30,9 +30,9 @@
 ;;; Code:
 
 (require 'dimmer)
+(require 'transient)
 
 (defvar dimmer-extra-fraction-num 0.20)
-
 ;;;###autoload
 (defun dimmer-extra-set ()
   "Set `dimmer-fraction' and `dimmer-adjustment-mode' with `custom-set-variables'."
