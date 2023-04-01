@@ -2,6 +2,8 @@
 
 Adjust [[https://github.com/gonewest818/dimmer.el][dimmer]] on the fly.
 
+[[./dimmer-extra-demo.gif][./dimmer-extra-demo.gif]]
+
 ** Installation
 
 Emacs >= 28.1 is required.
@@ -36,5 +38,3 @@ Add the downloaded directory to the load path:
 
 ** Usage
 =M-x dimmer-extra-transient RET= will dispatch transient menu.
-
-[[./dimmer-extra-demo.png][./dimmer-extra-demo.png]]
