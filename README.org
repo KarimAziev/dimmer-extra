@@ -1,0 +1,40 @@
+* dimmer-extra
+
+Adjust [[https://github.com/gonewest818/dimmer.el][dimmer]] on the fly.
+
+** Installation
+
+Emacs >= 28.1 is required.
+
+*** Manual
+
+Ensure that you have installed required dependencies:
+- ~dimmer~ >= 0.4.2
+
+Download the source code and put it wherever you like, e.g. into =~/.emacs.d/dimmer-extra/=
+
+#+begin_src shell :eval no
+git clone https://github.com/KarimAziev/dimmer-extra.git ~/.emacs.d/dimmer-extra/
+#+end_src
+
+
+Add the downloaded directory to the load path:
+
+#+begin_src elisp :eval no
+(add-to-list 'load-path "~/.emacs.d/dimmer-extra/")
+(require 'dimmer-extra)
+#+end_src
+
+#+begin_src elisp :eval no
+(use-package dimmer-extra
+  :straight (dimmer-extra
+             :repo "KarimAziev/dimmer-extra"
+             :type git
+             :host github)
+  :commands (dimmer-extra-transient))
+#+end_src
+
+** Usage
+=M-x dimmer-extra-transient RET= will dispatch transient menu.
+
+[[./dimmer-extra-demo.png][./dimmer-extra-demo.png]]
