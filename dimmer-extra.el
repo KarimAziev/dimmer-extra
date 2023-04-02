@@ -193,7 +193,7 @@ Return ALIST of descriptions and values."
              (propertize  (or off-label "(-)") 'face
                           'transient-inactive-value))) )
 
-;;;###autoload (autoload 'dimmer-extra-transient "km-dimmer.el" nil t)
+;;;###autoload (autoload 'dimmer-extra-transient "dimmer-extra.el" nil t)
 (transient-define-prefix dimmer-extra-transient ()
   "Configure dimmer variables on the fly."
   :transient-non-suffix 'transient--do-stay
