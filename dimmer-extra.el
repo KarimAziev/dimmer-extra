@@ -1,4 +1,4 @@
-;;; dimmer-extra.el --- Configure dimmer -*- lexical-binding: t; -*-
+;;; dimmer-extra.el --- Configure dimmer on the fly -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2023 Karim Aziiev <karim.aziiev@gmail.com>
 
@@ -25,7 +25,8 @@
 
 ;;; Commentary:
 
-;; Configure dimmer
+;; This package provides additional configuration options for the `dimmer'
+;; package, allowing users to adjust dimmer settings on the fly.
 
 ;;; Code:
 
@@ -306,13 +307,3 @@ Return ALIST of descriptions and values."
 
 (provide 'dimmer-extra)
 ;;; dimmer-extra.el ends here
-
-
-
-
-
-
-
-
-
-
